@@ -1,10 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+import OurAchievements from './Componants/OutAchievements/OurAchievements';
 
 function App() {
   return (
-    <div className="App">
-     <h1>Welcome to Athena</h1>
+    <div>
+     <OurAchievements></OurAchievements>
     </div>
   );
 }
