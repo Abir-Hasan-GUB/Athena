@@ -5,7 +5,7 @@ const Services = () => {
     return (
         <>
             <div className="sec2__dis">
-                <h2>What We Do</h2>
+                <h2>What We Do.</h2>
                 <p>Our main focus is to make the User Experience very <br/>
                     simple and easy. Simplicity is our Strength.</p>
             </div>
