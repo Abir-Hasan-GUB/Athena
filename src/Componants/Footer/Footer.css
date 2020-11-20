@@ -1,8 +1,14 @@
 .footer {
-    height: 400px;
+    height: 500px;
     width: 100%;
-    background: #171426;
-    color: #fff;
+    background: #FAFFFD;
+    color: #464646;
+}
+a:hover{
+    text-decoration: none;
+}
+.logo{
+    height: 117px;
 }
 ul li{
     list-style: none;
@@ -14,10 +20,38 @@ ul{
     padding: 0; 
 }
 .footer ul a{
+    color:#464646;
+}
+.FooterTitle h1{
+    font-size: 35px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+.FooterTitle input,button{
+    border: none;
+    padding: 13px 15px;
+}
+.FooterTitle input{
+    width: 100%;
+}
+.FooterTitle button{
+    background-image: linear-gradient(to right, #0DBADD ,#1FDCB5);
     color: #fff;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.buttonBody{
+    position: relative;
+    height: 50px;
+    width: 50%;
+    margin: 0 auto;
+    background: #fff;
+    box-shadow: -4px 2px 15px 3px rgba(189,189,189,1);
 }
 .footerLi li:hover{
-    color: #FCD842;
+    color: #000;
     margin-left: 10px;
     transition: .5s;
 }
@@ -28,13 +62,15 @@ ul{
 .socialLink li{
     display: inline-block;
     margin-right: 15px;
-}
-.copyright{
+    height: 28.4px;
+    width: 28.4px;
+    border: 1px solid #353535;
     text-align: center;
-    height: 30px;
-    width: 100%;
-    color: #737376;
-    line-height: 30px;
-    padding-top: 55px;
-    background: transparent;
+    line-height: 28.4px;
+    border-radius: 50%;
+    background: #707070;
 }
+.socialLink li a{
+    color: #FAFFFD;
+}
+

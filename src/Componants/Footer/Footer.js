@@ -1,27 +1,32 @@
 import React from 'react';
 import './Footer.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebookF, faInstagram, faTwitter, faWhatsapp, faYoutube } from '@fortawesome/free-brands-svg-icons';
+import { faFacebookF, faTwitter } from '@fortawesome/free-brands-svg-icons';
 import './Footer.css';
+import logo from "../Image/logo.png";
 
 const fb = <FontAwesomeIcon icon={faFacebookF} />
 const twitter = <FontAwesomeIcon icon={faTwitter} />
-const instra = <FontAwesomeIcon icon={faInstagram} />
-const whatsapp = <FontAwesomeIcon icon={faWhatsapp} />
-const youtube = <FontAwesomeIcon icon={faYoutube} />
 
 const Footer = () => {
     return (
         <div id="Footer" className="footer p-5 container">
+             <div className="FooterTitle text-center mb-5">
+                    <h1>Get your design right, right now</h1>
+                    <p className = "text-center text-gray mt-3 mb-5">Be the first know our latest offers and updates!</p>
+                   <div className = "buttonBody"> <input type="text" placeholder = "Enter your email address" name="" id="" /> <button className="btn">Get Started</button> </div>
+                </div>
             <div className="row">
                 <div className="col-md-4">
-                <h5>Connect with Us</h5>
-                    <ul className="socialLink">
-                        <li> <a href="#">{youtube}</a></li>
+                <a href="#">
+                <img className = "img-fluid logo" src={logo} alt="logo"/>
+                </a>
+                    <ul className="socialLink mt-5">
                         <li> <a href="#">{fb}</a></li>
-                        <li> <a href="#">{instra}</a></li>
                         <li> <a href="#">{twitter}</a></li>
-                        <li> <a href="#">{whatsapp}</a></li>
+                        <li> <a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                        <li> <a href="#"><i class="fas fa-basketball-ball"></i></a></li>
+                        <li> <a href="#"><i class="fab fa-behance"></i></a></li>
                     </ul>
                 </div>
                 <div className="col-md-3">
@@ -49,7 +54,6 @@ const Footer = () => {
                     </ul>
                 </div>
             </div>
-            <p className="copyright"> © Copyright {new Date().getFullYear()} Programming Hero. All Rights Reserved"</p>
         </div>
     );
 };
