@@ -1,82 +1,29 @@
-#achievment{
-    background-color: #FAFFFD;
-    height: 400px;
-    width: 100%;
+.section__maindiv{
+    padding: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;    
 }
-
-.achivementDetails{
-    font-size: 11px;
-    font-family: 'Montserrat', sans-serif;
+.achievments{
+    margin: 10px;
+    border-top-right-radius: 50px; 
+    border-bottom-left-radius: 50px;
+    width: 300px;
+    box-shadow: #EEFDF7 10px 10px 10px 10px;
 }
-.achivementTitle{
-    font-size: 28px;
-    font-family: 'Yeseva One', cursive;
-}
-.carvDiv1:hover{
-    height: 130px;
-    width: 100%;
-    border-radius: 0px 50px 0px 50px;
-    background-image: linear-gradient(to right, #0DBADD ,#1FDCB5);
-}
-.carvDiv1{
-    height: 130px;
-    text-align: center;
-    padding: 20px;
-    width: 100%;
-    border-radius: 50px 0px 50px 0px;
-    margin-bottom: 10%;
-    background: #FFFFFF;
-    -webkit-box-shadow: 10px 24px 41px 5px rgba(236,254,246,1);
--moz-box-shadow: 10px 24px 41px 5px rgba(236,254,246,1);
-box-shadow: 10px 24px 41px 5px rgba(236,254,246,1);
-/* transition: .5s; */
-}
-
-.carvDiv2{
-    height: 130px;
-    padding: 20px;
-    width: 100%;
-    text-align: center;
-    border-radius: 0px 50px 0px 50px;
-    background: #FFFFFF;
-    -webkit-box-shadow: 10px 24px 41px 5px rgba(236,254,246,1);
--moz-box-shadow: 10px 24px 41px 5px rgba(236,254,246,1);
-box-shadow: 10px 24px 41px 5px rgba(236,254,246,1);
-/* transition: .5s; */
-}
-.carvDiv2:hover{
-    background-image: linear-gradient(to right, #0DBADD ,#1FDCB5);
-}
-.carvDiv2 h2,.carvDiv1 h2{
+.achive__dis h3{
+    font-weight: bold;
     font-size: 40px;
-    font-family: 'Poppins', sans-serif;
-    color: #707070;
-    font-weight: 700;
+    padding-top: 30px;
 }
-.achive .icon{
-    font-size: 50px;
-    color: #707070;
-    margin-left: 31px;
-    margin-top: -31px;
+.achive__img img{
+   width: 40px;
+   padding-top:40px
 }
-.carvDiv1:hover .icon,.carvDiv2:hover .icon{
-    color: #FFF;
+.achievments:hover{
+    background: rgb(13,184,223);
+    background: linear-gradient(209deg, rgba(13,184,223,1) 0%, rgba(31,222,179,1) 100%); 
+    color: white;  
 }
-.carvDiv1:hover h2{
-    color: #fff;
+.achivement__sec{
+    margin-top:100px;
+    margin-bottom: 100px
 }
-.carvDiv1:hover p{
-    color: #fff;
-}
-.carvDiv2:hover h2{
-    color: #fff;
-}
-.carvDiv2:hover p{
-    color: #fff;
-}
-.carvDiv1 p,.carvDiv2 p{
-    color: #707070;
-    font-size: 20px;
-    font-weight: 400;
-}
-
