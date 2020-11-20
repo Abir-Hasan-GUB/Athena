@@ -1,0 +1,36 @@
+.services{
+    margin: 0 auto
+}
+.works:hover{
+    box-shadow: 2px 5px 16px 0px #0B325E
+}
+.works{
+    width: 300px;
+    text-align:center;
+    margin: 0 ;
+   margin: 20px;
+   border-top-left-radius: 50px;
+   border-bottom-right-radius: 50px;
+}
+.works img{
+    width: 60px;
+    margin: 20px
+}
+.works h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+.works p{
+    font-size:15px;
+    color: gray;
+    
+}
+
+.sec2__dis{
+    text-align: center;
+    padding-top: 50px
+}
+.sec2__dis h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;    
+    font-weight: bold;
+}

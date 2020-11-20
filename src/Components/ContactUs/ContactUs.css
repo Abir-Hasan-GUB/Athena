@@ -1,0 +1,46 @@
+.SectionThree{
+    margin: 0 auto;
+    margin-top:50px;
+}
+.contactUs__img{
+    width: 100%;
+    height: auto;
+    padding: 30px
+}
+
+.contactUs__dis{
+    padding: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;    
+
+}
+.contactUs__dis p{
+    color: gray;
+
+}
+
+.contactUs__btn {
+	text-decoration:none;
+	font-family:Georgia;
+	background:#09b0e8;
+	background:-o-linear-gradient(150deg, #09b0e8, #1ddab7);
+	background:-moz-linear-gradient( center top, #09b0e8 5%, #1ddab7 100% );
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #09b0e8), color-stop(1, #1ddab7) );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#09b0e8', endColorstr='#1ddab7');
+	background:-webkit-linear-gradient(#09b0e8, #1ddab7);
+	background:-ms-linear-gradient(#09b0e8, #1ddab7);
+	background:linear-gradient(#09b0e8, #1ddab7);
+	text-indent:0px;
+	line-height:27px;
+	-moz-border-radius:32px 0 32px 0;
+	-webkit-border-radius:32px 0 32px 0;
+	border-radius:32px 0 32px 0;
+	text-align:center;
+	vertical-align:middle;
+	display:inline-block;
+	font-size:17px;
+	color:#ffffff;
+	padding:10px 30px;
+	border-color:#ffffff;
+	border-width:5px;
+	border-style:solid;
+}
