@@ -12,28 +12,28 @@ const Services = () => {
 
         <div className="services d-flex justify-content-around row">
 
-            <div className="works col-md-5 col-lg-2">
+            <div className="works col-md-5 col-lg-3">
                 <img src="https://i.ibb.co/zbQpsBw/Group-65-2x.png" alt=""/>
                 <h3>Experience Design</h3>
                 <p>The point of using Lorem
                 Ipsum is that it has a more-orless normal.</p>
             </div>
 
-            <div className="works col-md-5  col-lg-2">
+            <div className="works col-md-5  col-lg-3">
                 <img src="https://i.ibb.co/L12rf7H/Group-66-2x.png" alt=""/>
                 <h3>Interface Design</h3>
                 <p>The point of using Lorem
                 Ipsum is that it has a more-orless normal.</p>
             </div>
 
-            <div className="works col-md-5  col-lg-2">
+            <div className="works col-md-5  col-lg-3">
                 <img src="https://i.ibb.co/6ZcvcVg/Group-69-2x.png" alt=""/>
                 <h3>Prototyping</h3>
                 <p>The point of using Lorem
                 Ipsum is that it has a more-orless normal.</p>
             </div>
 
-            <div className="works col-md-5  col-lg-2">
+            <div className="works col-md-5  col-lg-3">
                 <img src="https://i.ibb.co/zbQpsBw/Group-65-2x.png" alt=""/>
                 <h3>Illustration</h3>
                 <p>The point of using Lorem

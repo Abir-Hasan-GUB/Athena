@@ -21,7 +21,7 @@ const Footer = () => {
                 <a href="#">
                 <img className = "img-fluid logo" src={logo} alt="logo"/>
                 </a>
-                    <ul className="socialLink mt-5">
+                    <ul className="socialLink d-flex justify-content-around mt-5">
                         <li> <a href="#">{fb}</a></li>
                         <li> <a href="#">{twitter}</a></li>
                         <li> <a href="#"><i class="fab fa-linkedin-in"></i></a></li>

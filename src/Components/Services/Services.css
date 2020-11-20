@@ -2,15 +2,15 @@
     margin: 0 auto
 }
 .works:hover{
-    box-shadow: 2px 5px 16px 0px #0B325E
+    box-shadow: 2px 5px 16px 0px #C0F1F0
 }
 .works{
-    width: 300px;
+    width:300px;
     text-align:center;
-    margin: 0 ;
-   margin: 20px;
    border-top-left-radius: 50px;
    border-bottom-right-radius: 50px;
+   padding: 30px;
+   margin-top: 30px
 }
 .works img{
     width: 60px;
